@@ -6,8 +6,5 @@
             "email": "melnykartem10@gmail.com"
         }
     ],
-    "scripts": {
-        "start": "php web/index.php",
-      },
     "require": {}
 }
