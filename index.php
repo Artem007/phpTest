@@ -1,14 +1,27 @@
 <?php
 
-$emailTo="melnykartem10@gmail.com";
-$subject="Test";
-$body="Testing mail php function";
-$headers="From:example@example.com";
+// $emailTo="melnykartem10@gmail.com";
+// $subject="Test";
+// $body="Testing mail php function";
+// $headers="From:example@example.com";
+//
+// if(mail($emailTo,$subject,$body,$headers)){
+//   echo "Emal has been sent";
+// }else{
+//   echo "Not sent";
+// }
 
-if(mail($emailTo,$subject,$body,$headers)){
-  echo "Emal has been sent";
+<?php
+$to = "somebody@example.com";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: webmaster@example.com" . "\r\n" .
+"CC: somebodyelse@example.com";
+
+if(mail($to,$subject,$txt,$headers)){
+  echo 'mail send succsesfly';
 }else{
-  echo "Not sent";
+  echo 'not send';
 }
 
 ?>
