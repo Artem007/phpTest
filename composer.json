@@ -1,0 +1,10 @@
+{
+    "name": "artem/project",
+    "authors": [
+        {
+            "name": "Artem",
+            "email": "melnykartem10@gmail.com"
+        }
+    ],
+    "require": {}
+}

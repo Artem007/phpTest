@@ -11,11 +11,11 @@
 //   echo "Not sent";
 // }
 
-echo "string;
+echo "string";
 
 ?>
 
-
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -33,4 +33,4 @@ echo "string;
     </form>
 
   </body>
-</html>
+</html> -->
