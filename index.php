@@ -1,17 +1,15 @@
 <?php
 
-// $emailTo="melnykartem10@gmail.com";
-// $subject="Test";
-// $body="Testing mail php function";
-// $headers="From:example@example.com";
-//
-// if(mail($emailTo,$subject,$body,$headers)){
-//   echo "Emal has been sent";
-// }else{
-//   echo "Not sent";
-// }
+$emailTo="melnykartem10@gmail.com";
+$subject="Test";
+$body="Testing mail php function";
+$headers="From:example@example.com";
 
-echo "string";
+if(mail($emailTo,$subject,$body,$headers)){
+  echo "Emal has been sent";
+}else{
+  echo "Not sent";
+}
 
 ?>
 
