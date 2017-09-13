@@ -11,13 +11,14 @@
 //   echo "Not sent";
 // }
 
-$to = "somebody@example.com";
-$subject = "My subject";
-$txt = "Hello world!";
-$headers = "From: webmaster@example.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+$to      = 'melnykartem10@gmail.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-if(mail($to,$subject,$txt,$headers)){
+if(mail($to, $subject, $message, $headers)){
   echo 'mail send succsesfly';
 }else{
   echo 'not send';
